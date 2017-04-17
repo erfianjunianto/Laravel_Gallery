@@ -43,15 +43,35 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 
 This tutorial come form: [iT Solutions Stuff](http://itsolutionstuff.com/post/laravel-5-image-gallery-crud-example-from-scratchexample.html).
 
-## Default Setting
+# HOW TO USE
 
-- Database: database.sqlite<br>
-- Database Connection: sqlite <br>
+## Change Default Setting
 
-## Tips
+In the folder ```config/database.php``` change the line:
 
-Set on database connection on ```html config/database.php ``` <br>
-Set on .env file, database name, database password
+<code> 'default' => env('DB_CONNECTION', 'sqlite'), </code>
+
+to
+
+<code>'default' => env('DB_CONNECTION', 'mysql'), </code>
+
+## Run Composer
+
+<code> composer update </code>
+
+## Edit .env file
+
+<code> DB_CONNECTION=sqlite </code> to <code> DB_CONNECTION=mysql </code>
+
+<code>DB_DATABASE=your database name </code>
+
+<code>DB_USERNAME=your database username </code>
+
+<code>DB_PASSWORD=your database password </code>
+
+## Run Composer again
+
+<code> php artisan migrate </code>
 
 ## Contact
 
