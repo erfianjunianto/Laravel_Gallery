@@ -61,8 +61,6 @@ to
 
 ## Edit .env file
 
-If .env file doesn't present, create it. 
-
 <code>DB_CONNECTION=sqlite </code> to <code> DB_CONNECTION=mysql </code>
 
 <code>DB_DATABASE=your database name </code>
@@ -76,6 +74,10 @@ If .env file doesn't present, create it.
 <code> php artisan migrate </code>
 
 Don't forget to create your own database in mysql database before run php artisan.
+
+## Running Project
+
+Run <code>php artisan serve</code> and access from your browser <code>http://localhost:8000/image-gallery</code>
 
 ## Contact
 
