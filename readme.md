@@ -21,7 +21,7 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 
 Laravel is accessible, yet powerful, providing tools needed for large, robust applications. A superb combination of simplicity, elegance, and innovation give you tools you need to build any application with which you are tasked.
 
-## Learning Laravel
+## Learning Laravel 
 
 Laravel has the most extensive and thorough documentation and video tutorial library of any modern web application framework. The [Laravel documentation](https://laravel.com/docs) is thorough, complete, and makes it a breeze to get started learning the framework.
 
@@ -38,3 +38,45 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
+
+## Source
+
+This tutorial come form: [iT Solutions Stuff](http://itsolutionstuff.com/post/laravel-5-image-gallery-crud-example-from-scratchexample.html).
+
+# HOW TO USE
+
+## Change Default Setting
+
+In the folder ```config/database.php``` change the line:
+
+<code> 'default' => env('DB_CONNECTION', 'sqlite'), </code>
+
+to
+
+<code>'default' => env('DB_CONNECTION', 'mysql'), </code>
+
+## Run Composer
+
+<code> composer update </code>
+
+## Edit .env file
+
+If .env file doesn't present, create it. 
+
+<code>DB_CONNECTION=sqlite </code> to <code> DB_CONNECTION=mysql </code>
+
+<code>DB_DATABASE=your database name </code>
+
+<code>DB_USERNAME=your database username </code>
+
+<code>DB_PASSWORD=your database password </code>
+
+## Run Composer again
+
+<code> php artisan migrate </code>
+
+Don't forget to create your own database in mysql database before run php artisan.
+
+## Contact
+
+Telegram: [Erfian Junianto](https://telegram.me/erfianjunianto).
