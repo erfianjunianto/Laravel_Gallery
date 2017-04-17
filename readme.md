@@ -41,12 +41,12 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 
 ## Source
 
-[iT Solutions Stuff](http://itsolutionstuff.com/post/laravel-5-image-gallery-crud-example-from-scratchexample.html).
+This tutorial come form: [iT Solutions Stuff](http://itsolutionstuff.com/post/laravel-5-image-gallery-crud-example-from-scratchexample.html).
 
 ## Default Setting
 
-Database: database.sqlite<br>
-Database Connection: sqlite <br>
+- Database: database.sqlite<br>
+- Database Connection: sqlite <br>
 
 ## Tips
 
