@@ -61,7 +61,9 @@ to
 
 ## Edit .env file
 
-<code> DB_CONNECTION=sqlite </code> to <code> DB_CONNECTION=mysql </code>
+If .env file doesn't present, create it. 
+
+<code>DB_CONNECTION=sqlite </code> to <code> DB_CONNECTION=mysql </code>
 
 <code>DB_DATABASE=your database name </code>
 
@@ -72,6 +74,8 @@ to
 ## Run Composer again
 
 <code> php artisan migrate </code>
+
+Don't forget to create your own database in mysql database before run php artisan.
 
 ## Contact
 
